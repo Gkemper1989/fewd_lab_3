@@ -21,5 +21,18 @@ function multiplyFive(number) {
 }
 
 function myFunction() {
-    return 'Hello Word!'
+    alert('Hello World!');
 }
+myFunction();
+
+let isAnswerRight = true;
+
+isAnswerRight ? console.log('The answer is right!') : console.log('The answer is wrong!');
+
+function tellFortune(numberOfChildren, partenersName, geoLocation, jobTittle) {
+    return `You will be a ${jobTittle} in ${geoLocation}, and married to ${partenersName} with ${numberOfChildren}`;
+}
+tellFortune(0,'Amanda','Dublin','Progammer');
+tellFortune(1,'Jennifer','Osasco','Bartender');
+tellFortune(2,'Valkiria','Dubai','Security');
+tellFortune(15,'Angelina','Canary Island','ScubaDiver');
