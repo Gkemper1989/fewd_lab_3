@@ -11,6 +11,11 @@ var salutation = function greet() {
      return 'Hello ' + name + '!';
  }
 
+function shout(string) {
+    return string + string;
+};
+shout('Fire');
+
 function doSomething(name) {
     return 'name';
 }
